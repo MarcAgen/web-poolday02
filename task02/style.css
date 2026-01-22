@@ -12,25 +12,25 @@
     }
 
     .yellow {
-        background-color: yellow;
+        background-color: #FEDF6B;
         height: 200px;
         margin-top: 20px;
         width: 100%
     }
 
     .style_section {
-        background-color: green;
+        background-color: #9EE062;
         height: 120px;
         margin-bottom: 0px;
     }
 
     header {
-        background-color: blue;
+        background-color: #67B3DD;
         height: 90px;
     }
 
     footer {
-        background-color: red;
+        background-color: #FC302D;
         height: 80px;
     }
 }
