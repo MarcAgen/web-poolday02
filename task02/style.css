@@ -1,0 +1,36 @@
+@media (width <= 767px) {
+    body {
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column;
+    }
+
+    body > * {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 100%;
+    }
+
+    .yellow {
+        background-color: yellow;
+        height: 200px;
+        margin-top: 20px;
+        width: 100%
+    }
+
+    .style_section {
+        background-color: green;
+        height: 120px;
+        margin-bottom: 0px;
+    }
+
+    header {
+        background-color: blue;
+        height: 90px;
+    }
+
+    footer {
+        background-color: red;
+        height: 80px;
+    }
+}
