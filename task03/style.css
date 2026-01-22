@@ -34,3 +34,28 @@
         height: 80px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        display: flex;
+        flex-basis: auto;
+        flex-direction: column;
+    }
+
+    body > * {
+        margin-bottom: 30px;
+    }
+
+    header {
+        background-color: #67B3DD;
+        height: 90px;
+        align-items: left;
+        width: 50%;
+    }
+
+    .style_section {
+        width: 100%;
+        height: 200px;
+        background-color: #9EE062
+    }
+}
